@@ -18,7 +18,8 @@ echo "sum of num1 and num2=$( expr $num1 + $num2 )"
 echo $USER
 echo ":home directory of user is $HOME :and current working directory is $PWD"
 #Task 6: using wild cards
-WorkDIR=$PWD
-ls "$WorkDIR" | grep '\.sh$'
+workDIR=$PWD
+ls "$workDIR"/*.sh
+ls "$workDIR" | grep '\.sh$'
 
 
