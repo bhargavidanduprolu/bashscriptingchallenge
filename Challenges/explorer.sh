@@ -25,3 +25,4 @@ while true;do
    char_count=${#line}
    echo "character count: $char_count"
 done
+#end of task2.1
